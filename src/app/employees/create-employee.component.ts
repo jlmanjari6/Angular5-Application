@@ -15,6 +15,7 @@ export class CreateEmployeeComponent implements OnInit {
   contactPreference: string;
   isActive: boolean;
   department: string;
+  dob:Date;
 
   constructor() { }
 
